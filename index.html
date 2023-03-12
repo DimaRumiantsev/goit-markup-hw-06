@@ -404,9 +404,20 @@
             </li>
         </ul>
     </div>
+    <div class="footer-form container">
+        <p class="footer-form-text paragraf">Подпишитесь на рассылку</p>
+        <form class="fotter-form">
+            <input class="fotter-input" type="email" placeholder="E-mail" name="email">
+           <button type="submit" class="fotter-form-submit">Подписаться
+            <svg class="footer-form-btn" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+            </svg>
+           </button>
+        </form>
+     </div>
        </div>
     </footer>
-    <div class="backdrop */is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
                 <svg class="modal-close-btn-icon" width="18" height="18">
@@ -451,15 +462,15 @@
             </label>
             <textarea name="user_message" class="modal-form-message" placeholder="Введите текст"
             ></textarea>
-            <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check">
+            <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check visyally-hidden">
             <label for="user-policy" class="modal-form-desc"
-            >Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+            >Соглашаюсь с рассылкой и принимаю&nbsp;<a class="link-policy" href="">Условия договора</a>
         </label>
         <button type="submit" class="modal-form-submit">Отправить</button>
            </form>
         </div>
     </div>
-
+    
     <script src="./js/modal.js"></script>
 </body>
 </html>
