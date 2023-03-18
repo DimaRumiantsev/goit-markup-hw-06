@@ -816,6 +816,7 @@ gap: 8px;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
+    margin-bottom: 4px;
     letter-spacing: 0.01em;
     color: #757575;
 }
@@ -976,7 +977,6 @@ gap: 8px;
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-right: 12px;
     margin-left: 20px;
     padding-left: 28px;
     padding-top: 10px;
@@ -992,8 +992,6 @@ gap: 8px;
     }   
     
     .footer-form-btn{
-        margin-top: 13px;
-        margin-bottom: 13px;
         margin-left: 10px;
 
     }
